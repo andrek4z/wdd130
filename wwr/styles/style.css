@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,10 +9,14 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title{
+    font-family: Montserrat Alternates;
+    font-size: 2em;
     color: #094565;
+    margin-top: 10px;
 }
 
 h4 {
@@ -29,12 +35,24 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
+    font-family: Esteban;
+    font-size: 22px;
     background-color: #04CCFB;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -47,9 +65,13 @@ nav a:hover {
 }
 
 .book, .join {
+    font-size: 18px;
     background-color: #E9EAEA;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -62,19 +84,27 @@ nav a:hover {
 }
 
 .msg {
+    line-height: 1.5em;
     background-color: #EFEF04;
+    padding: 35px;
 }
 
 .msg h2 {
+    font-family: Montserrat Alternates;
     color: black;
 }
 
 .msg p {
+    font-family: Esteban;
+    font-size: .8em;
     color: black;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #E9EAEA;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -94,14 +124,31 @@ footer a:hover {
     color: #0D6C9E;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width:80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width:100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #0D6C9E;
 }
