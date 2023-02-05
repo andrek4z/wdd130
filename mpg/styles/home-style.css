@@ -18,15 +18,18 @@ nav a {
 }
 
 .home-title{
-    font-family: Esteban;
-    font-size: 2em;
-    margin-top: 10px;
+    font-family: Montserrat Alternates;
+    font-size: 5em;
+    color: black;
+    margin: auto;
+    text-align: center;
+    grid-column: 2/10;
 }
 
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
 }
 
 h4 {
@@ -53,13 +56,9 @@ main section img {
 body {
     font-family: Esteban;
     font-size: 22px;
-    background-color: red;
+    background-color: White;
     margin: 0;
     padding: 0;
-}
-
-h2 {
-    margin: 0;
 }
 
 header {
@@ -82,7 +81,8 @@ nav a:hover {
 
 .image2 {
     width: 100%;
-    grid-column: 2/7;
+    height: 100%;
+    grid-column: 2/5;
     grid-row: 5/8;
 }
 
@@ -91,7 +91,15 @@ nav a:hover {
     background-color: #8D99AE;
     padding: 35px;
     grid-column: 6/10;
-    grid-row: 2/4;
+    grid-row: 2/3;
+}
+
+.msg2 {
+    line-height: 1.5em;
+    background-color: #D90429;
+    padding: 35px;
+    grid-column: 3/10;
+    grid-row: 6/7;
 }
 
 .msg h2 {
@@ -155,7 +163,6 @@ footer .social img {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     margin-top: -100px;
 }
 
