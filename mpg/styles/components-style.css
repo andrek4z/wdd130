@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+#content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #EDF2F4;
+    text-decoration: none;
+    padding: 35px;
+}
+
+.home-title{
+    font-family: Montserrat Alternates;
+    font-size: 5em;
+    color: black;
+    margin: auto;
+    text-align: center;
+    grid-column: 2/10;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    font-family: Esteban;
+    font-size: 22px;
+    background-color: White;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 120px auto;
+    background-color: black;
+    opacity: .7;
+}
+
+nav a:hover {
+    background-color: #8D99AE;
+    color: black;
+}
+
+.msg {
+    line-height: 1.5em;
+    background-color: #8D99AE;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 2/3;
+}
+
+.msg p {
+    font-family: Esteban;
+    font-size: .8em;
+    color: Black;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #2B2D42 ;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: white;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0D6C9E;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 89px;
+}
