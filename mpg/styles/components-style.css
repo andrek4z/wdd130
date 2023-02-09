@@ -19,11 +19,12 @@ nav a {
 
 .home-title{
     font-family: Montserrat Alternates;
-    font-size: 5em;
+    font-size: 2em;
     color: black;
-    margin: auto;
+    margin: 75px;
     text-align: center;
     grid-column: 2/10;
+    grid-row: 1/2;
 }
 
 .home-grid {
@@ -64,15 +65,66 @@ nav a:hover {
     color: black;
 }
 
-.msg {
-    line-height: 1.5em;
-    background-color: #8D99AE;
-    padding: 35px;
+.processor {
+    width: 100%;
+    height: 100%;
     grid-column: 6/10;
     grid-row: 2/3;
 }
 
+.graphic {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+
+.ram {
+    width: 100%;
+    height: 100%;
+    grid-column: 6/10;
+    grid-row: 5/6;
+}
+
+.msg {
+    line-height: 1.5em;
+    background-color: #8D99AE;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
 .msg p {
+    font-family: Esteban;
+    font-size: .8em;
+    color: Black;
+    padding-bottom: 15px;
+}
+
+.msg2 {
+    line-height: 1.5em;
+    background-color: #8D99AE;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 3/4;
+}
+
+.msg2 p {
+    font-family: Esteban;
+    font-size: .8em;
+    color: Black;
+    padding-bottom: 15px;
+}
+
+.msg3 {
+    line-height: 1.5em;
+    background-color: #8D99AE;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 5/6;
+}
+
+.msg3 p {
     font-family: Esteban;
     font-size: .8em;
     color: Black;
