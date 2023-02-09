@@ -99,12 +99,11 @@ nav a:hover {
     font-family: Esteban;
     font-size: .8em;
     color: Black;
-    padding-bottom: 15px;
 }
 
 .msg2 {
     line-height: 1.5em;
-    background-color: #8D99AE;
+    background-color: #D90429;
     padding: 35px;
     margin: auto;
     grid-column: 6/10;
@@ -115,7 +114,6 @@ nav a:hover {
     font-family: Esteban;
     font-size: .8em;
     color: Black;
-    padding-bottom: 15px;
 }
 
 .msg3 {
@@ -131,7 +129,6 @@ nav a:hover {
     font-family: Esteban;
     font-size: .8em;
     color: Black;
-    padding-bottom: 15px;
 }
 
 footer {
